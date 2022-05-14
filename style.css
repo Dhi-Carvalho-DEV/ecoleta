@@ -31,19 +31,13 @@ body {
   width: min(50rem, 100%);
   margin-inline: auto;
   padding-inline: 2rem;
-  background-image: url(./assets/Background.png);
-  background-repeat: no-repeat;
-  background-size: 25rem;
-  background-position-x: 15rem;
-  background-position-y: 28rem;
-  position: absolute;
 }
 
 a {
   text-decoration: none;
 }
 
-header {
+header .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,6 +60,14 @@ header a {
 
 header a img {
   width: 1.5rem;
+}
+
+main .wrapper {
+  background-image: url(./assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: 30rem;
+  background-position-x: 10rem;
+  background-position-y: 18rem;
 }
 
 .content h1 {
@@ -107,7 +109,6 @@ header a img {
 }
 
 .button a {
-  
   font-family: var(--text);
   font-size: 1.2rem;
   font-weight: 700;
