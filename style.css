@@ -62,14 +62,6 @@ header a img {
   width: 1.5rem;
 }
 
-main .wrapper {
-  background-image: url(./assets/Background.png);
-  background-repeat: no-repeat;
-  background-size: 30rem;
-  background-position-x: 10rem;
-  background-position-y: 18rem;
-}
-
 .content h1 {
   font-family: var(--title-font);
   font-size: 3.5rem;
@@ -90,7 +82,7 @@ main .wrapper {
 
 .img-background {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   margin-bottom: 3rem;
 }
 
@@ -99,12 +91,11 @@ main .wrapper {
 }
 
 .button {
-  width: 25rem;
+  width: min(25rem, 100%);
   display: flex;
   align-items: center;
-  gap: 2.4rem;
   background-color: var(--button);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   margin-inline: auto;
 }
 
@@ -113,12 +104,13 @@ main .wrapper {
   font-size: 1.2rem;
   font-weight: 700;
   color: white;
+  margin-inline: auto;
 }
 
 .button .img {
   padding: 2rem;
   background-color: var(--button-hover);
-  border-radius: 0.5rem 0 0 0.5rem;
+  border-radius: 1rem 0 0 1rem;
 }
 .button img {
   width: 2rem;
