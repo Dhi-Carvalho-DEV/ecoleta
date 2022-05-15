@@ -39,7 +39,7 @@ a {
 
 header .wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -52,10 +52,13 @@ header .logo img {
 header a {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: center;
+  gap: 1rem;
   font-size: 1rem;
   font-family: var(--text-font);
   font-weight: 700;
+  position: absolute;
+  bottom: 2rem;
 }
 
 header a img {
