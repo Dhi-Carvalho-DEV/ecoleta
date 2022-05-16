@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+
+  --title: hsla(260, 43%, 23%);
+  --text: hsla(240, 8%, 46%);
+  --button: hsla(148, 59%, 50%);
+  --button-hover: hsla(148, 59%, 45%);
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 90%);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ubuntu', sans-serif;
+  color: var(--title);
+}

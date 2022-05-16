@@ -1,0 +1,90 @@
+
+@media (max-width: 1024px) {
+  #page-home {
+    background-position-x: 45rem;
+  }
+
+  #page-home .content {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  #page-home {
+    background-size: 35rem;
+    background-position-x: 20.5rem;
+    background-position-y: 27rem;
+  }
+
+  #page-home .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  #page-home header a {
+    position: absolute;
+    bottom: 1rem;
+
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #page-home main {
+    align-items: center;
+  }
+
+  #page-home main h1 {
+    font-size: 5rem;
+    margin-bottom: 27rem;
+  }
+
+  #page-home main p {
+    font-size: 2rem;
+    line-height: 3rem;
+    width: 35rem;
+    margin-top: 0;
+  }
+
+  #page-home main a {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  #page-home {
+    background: none;
+  }
+
+  #page-home .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  #page-home header a {
+    position: absolute;
+    bottom: 3rem;
+
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #page-home main {
+    align-items: center;
+  }
+
+  #page-home main h1 {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  #page-home main p {
+    font-size: 2rem;
+    line-height: 3rem;
+    width: 35rem;
+    margin-top: 2.4rem;
+  }
+
+  #page-home main a {
+    margin-top: 4rem;
+  }
+}
